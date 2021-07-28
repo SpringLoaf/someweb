@@ -6,7 +6,7 @@
     left: 50%;
     right: 50%;
     margin: auto;
-    outline-style: dashed;
+    outline-style: solid;
     border-radius: 20px;
     text-align: center;
 }
