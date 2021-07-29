@@ -1,7 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Aquatic Pet Store, Pet Supplies, Shop"/>
+        <meta name="description" content="HD Camp & Pet Shop Supply Main Page. The Cartimar Mini Mart in San Pedro, Laguna"/>
+        <meta name="copyright"content="HD Pet Shop">
+        <meta name="language" content="en_US">
+        <meta name="robots" content="index,follow" />
+        <meta name="summary" content="Cartimar Mini Mart">
+        <meta name="Classification" content="Business">
+        <meta name="author" content="admin, hdpetshop.ph@gmail.com">
+        <meta name="designer" content="admin">
+        <meta name="reply-to" content="hdpetshop.ph@gmail.com">
+        <meta name="url" content="https://hdpetshop.online">
+        <meta name="coverage" content="Worldwide">
+        <meta name="distribution" content="Global">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
@@ -10,7 +23,42 @@
         <title>Home | HD Camp & Pet Shop Supply</title>
     </head>
     <body>
-        <img src="lib/img/logo.png" width="300px" style="display: block;left: 50%;right: 50%;margin: auto;">
-        <div class="mybox">Website under development to provide the latest content to users</div>
+            <ul>
+                <li><img src="lib/img/logo.svg" height="50px"></li>
+                <li><img src="lib/img/logon.svg" height="50px"></li>
+                <li style="float: right;"><a href="https://www.facebook.com/HD-Pet-Shop-106040298421185">Facebook</a></li>
+                <li style="float: right;"><a href="mailto:hdpetshop.ph@gmail.com">Contact Us</a></li>
+                <li style="float: right;"><a href="bak/index.html">Catalog</a></li>
+                <li style="float: right;"><a href="http://www.theaquariumwiki.com/wiki/Main_Page">AquaWiki</a></li>
+            </ul>
+
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "106040298421185");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v11.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!--End of messenger code-->
     </body>
 </html>

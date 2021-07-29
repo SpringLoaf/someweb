@@ -1,20 +1,67 @@
-.mybox {
-    width: 400px;
-    padding: 5px;
-    display: block;
-    top: 50%;
-    left: 50%;
-    right: 50%;
-    margin: auto;
-    outline-style: solid;
-    border-radius: 20px;
-    text-align: center;
-}
-
 p {
     margin: auto 5px auto 5px;
 }
 
 html {
     font-family: 'Comfortaa', cursive;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.t {
+    margin: 0px;
+    padding: 20px;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+  
+li {
+    float: left;
+    color: black;
+    display: inline;
+    text-decoration: none;
+}
+li a {
+    display: inline-block;
+    outline-style: solid;
+    outline-color: black;
+    padding: 10px;
+    margin: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+li a:hover{
+    background-color: black;
+    color: white;
+}
+
+li img {
+    display: inline-block;
+    margin: 0px auto;
+}
+
+
+
+footer {
+    margin: 0px;
+    bottom: 0px;
+    padding: 25px;
+    background-color: cornflowerblue;
 }
