@@ -1,9 +1,14 @@
-p {
-    margin: auto 5px auto 5px;
+.ntc {
+    margin: 50px 20px;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 15px;
 }
 
 html {
     font-family: 'Comfortaa', cursive;
+    color: white;
 }
 
 body {
@@ -23,9 +28,9 @@ ul {
     margin: 0;
     padding: 10px;
     overflow: hidden;
-    position: fixed;
+    position: static;
     top: 0;
-    width: 100%;
+    width: auto;
     background-color: white;
 }
   
